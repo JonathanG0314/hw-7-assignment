@@ -1,5 +1,22 @@
 /*Add your CSS here*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+}
 
+h1 {
+  font-size: 34;
+  text-align: center;
+}
+
+h2 {
+  color: darkred;
+  text-align: center;
+}
 
 
 
