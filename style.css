@@ -1,4 +1,4 @@
-/*Add your CSS here*/
+/* Universal Selector */
 * {
   margin: 0;
   padding: 0;
@@ -8,21 +8,18 @@
   color: black;
 }
 
+/* Headings */
 h1 {
   font-size: 34px;
   text-align: center;
 }
 
 h2 {
-  color: darkred;
+  color: darkgreen;
   text-align: center;
 }
 
-nav {
-  text-align: center;
-  padding: 1rem 0 2rem;
-}
-
+/* Navigation */
 nav {
   text-align: center;
   padding: 1rem 0 2rem;
@@ -35,17 +32,18 @@ nav a {
 }
 
 nav a:visited {
-  color: purple;
+  color: forestgreen;
 }
 
 nav a:hover {
-  color: red;
+  color: indigo;
 }
 
 nav a:active {
-  color: green;
+  color: aquamarine;
 }
 
+/* Images & Figures */
 img {
   width: 100%;
   height: auto;
@@ -59,9 +57,10 @@ figure {
 }
 
 .cap {
-  color: gray;
+  color: slategray;
 }
 
+/* Sections & Paragraphs */
 section {
   padding: 2rem 0;
 }
@@ -71,6 +70,7 @@ p {
   text-align: justify;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem 0;
@@ -78,28 +78,4 @@ footer {
 
 footer a:hover {
   text-decoration: none;
-}
-
-
-
-
-/*No touch*/
-h1, h2, nav, .cap, footer {
-  text-align: center;
-}
-
-nav {
-  padding: 1rem 0 2rem 0;
-}
-
-figure, h2, footer {
-  padding-bottom: 1rem;
-}
-
-section {
-  padding: 2rem 0;
-}
-
-p{
-  margin: 0 10vw;
 }
