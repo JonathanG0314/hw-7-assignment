@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  color: darkgreen;
+  color: darkred;
   text-align: center;
 }
 
@@ -36,11 +36,11 @@ nav a:visited {
 }
 
 nav a:hover {
-  color: indigo;
+  color: purple;
 }
 
 nav a:active {
-  color: aquamarine;
+  color: green;
 }
 
 /* Images & Figures */
